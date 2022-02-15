@@ -1,6 +1,10 @@
 # my eslint config
 
-.vscode/settings.json
+`npm i -d eslint prettier @dhruwlalan/eslint-config`
+
+---
+
+**.vscode / settings.json**
 ```json
 {
   "editor.formatOnPaste": false,
@@ -13,7 +17,9 @@
 }
 ```
 
-.eslintrc
+---
+
+**.eslintrc**
 ```json
 {
   "extends": [
@@ -22,7 +28,9 @@
 }
 ```
 
-package.json
+---
+
+**package.json**
 ```json
 {
   "eslintConfig": {
