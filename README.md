@@ -16,6 +16,19 @@
 .eslintrc
 ```json
 {
-  "extends": "@dhruwlalan"
+  "extends": [
+    "@dhruwlalan"
+  ]
+}
+```
+
+package.json
+```json
+{
+  "eslintConfig": {
+      "extends": [
+         "@dhruwlalan"
+       ]
+   }
 }
 ```
