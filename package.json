@@ -1,7 +1,7 @@
 {
    "name": "@dhruwlalan/eslint-config",
    "description": "my eslint config",
-   "version": "1.0.0",
+   "version": "1.0.1",
    "author": "dhruw lalan <dhruwlalan22@gmail.com> (https://dhruwlalan.me/)",
    "repository": "dhruwlalan/eslint-config-dhruwlalan",
    "homepage": "https://github.com/dhruwlalan/eslint-config-dhruwlalan#readme",
@@ -41,6 +41,6 @@
    "eslintConfig": {
       "extends": [
          "@dhruwlalan"
-       ]
+      ]
    }
 }
