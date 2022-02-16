@@ -11,12 +11,6 @@
    "files": [
       "index.js"
    ],
-   "engines": {
-      "node": ">=12"
-   },
-   "publishConfig": {
-      "access": "public"
-   },
    "dependencies": {
       "eslint-config-prettier": "^8.3.0",
       "eslint-plugin-import": "^2.25.4",
@@ -24,12 +18,7 @@
    },
    "devDependencies": {
       "@dhruwlalan/eslint-config": "^1.0.0",
-      "@semantic-release/changelog": "^6.0.1",
-      "@semantic-release/commit-analyzer": "^9.0.2",
-      "@semantic-release/git": "^10.0.1",
-      "@semantic-release/github": "^8.0.2",
-      "@semantic-release/npm": "^9.0.0",
-      "@semantic-release/release-notes-generator": "^10.0.3",
+      "@dhruwlalan/semantic-release-config": "^1.0.2",
       "eslint": "^8.9.0",
       "prettier": "^2.5.1",
       "semantic-release": "^19.0.2"
@@ -38,9 +27,18 @@
       "eslint": "8.x",
       "prettier": "2.x"
    },
+   "publishConfig": {
+      "access": "public"
+   },
+   "engines": {
+      "node": ">=12"
+   },
    "eslintConfig": {
       "extends": [
          "@dhruwlalan"
       ]
+   },
+   "release": {
+      "extends": "@dhruwlalan/semantic-release-config"
    }
 }
