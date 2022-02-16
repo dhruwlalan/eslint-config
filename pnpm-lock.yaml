@@ -1,8 +1,8 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@dhruwlalan/eslint-config': ^1.0.0
-  '@dhruwlalan/semantic-release-config': ^1.0.2
+  '@dhruwlalan/eslint-config': ^1.0.4
+  '@dhruwlalan/semantic-release-config': ^1.0.3
   eslint: ^8.9.0
   eslint-config-prettier: ^8.3.0
   eslint-plugin-import: ^2.25.4
@@ -16,8 +16,8 @@ dependencies:
   eslint-plugin-prettier: 4.0.0_07b422646bb75d3db791621d4fdbc992
 
 devDependencies:
-  '@dhruwlalan/eslint-config': 1.0.3_eslint@8.9.0+prettier@2.5.1
-  '@dhruwlalan/semantic-release-config': 1.0.2_semantic-release@19.0.2
+  '@dhruwlalan/eslint-config': 1.0.4_eslint@8.9.0+prettier@2.5.1
+  '@dhruwlalan/semantic-release-config': 1.0.3_semantic-release@19.0.2
   eslint: 8.9.0
   prettier: 2.5.1
   semantic-release: 19.0.2
@@ -45,8 +45,8 @@ packages:
       js-tokens: 4.0.0
     dev: true
 
-  /@dhruwlalan/eslint-config/1.0.3_eslint@8.9.0+prettier@2.5.1:
-    resolution: {integrity: sha512-XV8aSUD3RnpHHniqRD7kH1rRC+lxdh8fbmGovpuLCWEHeraoKgxY/9NwM5ZWfEGOWT1GvvnGa0yOq58XLD/ltQ==}
+  /@dhruwlalan/eslint-config/1.0.4_eslint@8.9.0+prettier@2.5.1:
+    resolution: {integrity: sha512-t0gWJcVd74QrCGKpq/4SPc3oqh4x1RUhmbMG2Rs0tKQfID4hH546Ef489qsnrBgq8yrq2CH9kv2HaGErMBmtEQ==}
     engines: {node: '>=12'}
     peerDependencies:
       eslint: 8.x
@@ -59,8 +59,8 @@ packages:
       prettier: 2.5.1
     dev: true
 
-  /@dhruwlalan/semantic-release-config/1.0.2_semantic-release@19.0.2:
-    resolution: {integrity: sha512-Jeuj7zJQuLDClmq/64OKGCBw6eQ1DZgxE7gepoPVyXQharAI0pem9fFYXpM7/IRne4gZjjK4EIOP+BEE1PQpdg==}
+  /@dhruwlalan/semantic-release-config/1.0.3_semantic-release@19.0.2:
+    resolution: {integrity: sha512-e+4BudotyvwWFyN7mmeHVdiEsAGgb/MnZ6AQ58DjvxoHTvU1q0/5W5KbbnJvAPbuIJa8/J1HmNRRXUof3iQWXg==}
     engines: {node: '>=12'}
     peerDependencies:
       semantic-release: 19.x
