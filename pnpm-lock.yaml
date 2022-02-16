@@ -2,7 +2,7 @@ lockfileVersion: 5.3
 
 specifiers:
   '@dhruwlalan/eslint-config': ^1.0.4
-  '@dhruwlalan/semantic-release-config': ^1.0.3
+  '@dhruwlalan/semantic-release-config': ^2.0.0
   eslint: ^8.9.0
   eslint-config-prettier: ^8.3.0
   eslint-plugin-import: ^2.25.4
@@ -17,7 +17,7 @@ dependencies:
 
 devDependencies:
   '@dhruwlalan/eslint-config': 1.0.4_eslint@8.9.0+prettier@2.5.1
-  '@dhruwlalan/semantic-release-config': 1.0.3_semantic-release@19.0.2
+  '@dhruwlalan/semantic-release-config': 2.0.0_semantic-release@19.0.2
   eslint: 8.9.0
   prettier: 2.5.1
   semantic-release: 19.0.2
@@ -59,8 +59,8 @@ packages:
       prettier: 2.5.1
     dev: true
 
-  /@dhruwlalan/semantic-release-config/1.0.3_semantic-release@19.0.2:
-    resolution: {integrity: sha512-e+4BudotyvwWFyN7mmeHVdiEsAGgb/MnZ6AQ58DjvxoHTvU1q0/5W5KbbnJvAPbuIJa8/J1HmNRRXUof3iQWXg==}
+  /@dhruwlalan/semantic-release-config/2.0.0_semantic-release@19.0.2:
+    resolution: {integrity: sha512-HN4pSDBPe0pGB8PR876SuhHqmPnTWeDihOWmXTxzZRg93WaPC7/PqO7et8cR75BtOnP4k1Ppsz+xuvDwdGT7cA==}
     engines: {node: '>=12'}
     peerDependencies:
       semantic-release: 19.x
@@ -70,6 +70,7 @@ packages:
       '@semantic-release/git': 10.0.1_semantic-release@19.0.2
       '@semantic-release/github': 8.0.2_semantic-release@19.0.2
       '@semantic-release/npm': 9.0.0_semantic-release@19.0.2
+      '@semantic-release/release-notes-generator': 10.0.3_semantic-release@19.0.2
       semantic-release: 19.0.2
     transitivePeerDependencies:
       - encoding
